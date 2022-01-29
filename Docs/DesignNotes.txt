@@ -1,0 +1,33 @@
+System components:
+
+PICAXE
+
+RTC chip
+https://picaxe.com/circuit-creator/i2c-unio-spi/i2c-real-time-clock-ds1307/
+I2c device:
+https://picaxe.com/docs/axe110_i2c.pdf
+SCL and SDA 
+HI2CSETUP
+
+Current sensor
+
+Contactor for
+
+Position switch
+
+Keypad
+
+Pins:
+C.0 Out = contactor control
+C.1 hi2c SCL
+C.2 hi2c SDA
+C.3 in = selector switch
+C.4 ADC = current sensor (use an inductive current sensor with an averaging circuit)
+C.5 in = keypad button
+
+selector switch and keypad use a pulse train 555
+
+Out to an LEN panel? i2c?
+Keypad i2c?
+
+
