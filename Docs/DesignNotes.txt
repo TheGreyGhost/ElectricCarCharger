@@ -28,6 +28,10 @@ C.5 in = keypad button
 selector switch and keypad use a pulse train 555
 
 Out to an LEN panel? i2c?
-Keypad i2c?
+Keypad i2c? - have XC4602 https://www.jaycar.com.au/medias/sys_master/images/images/9630070439966/XC4602-dataSheetMain.pdf which is serial and clock but dedicated.
+Realtime clock XC-4450
+
+Some info on keypad (not i2c):https://community.particle.io/t/is-there-a-simple-way-to-use-the-16-key-touchpad-ttp229-with-particle/21357/14
+https://github.com/dmmedia/TTP229B_16keypad
 
 
