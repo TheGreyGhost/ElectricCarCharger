@@ -18,20 +18,38 @@ Position switch
 Keypad
 
 Pins:
-C.0 Out = contactor control
-C.1 hi2c SCL
-C.2 hi2c SDA
-C.3 in = selector switch
+Use a PICAXE 14M2
+B.3, B.4 = hi2c for LCD display
+B.1, B.2 = keypad buttons serial clock & data
+
 C.4 ADC = current sensor (use an inductive current sensor with an averaging circuit)
-C.5 in = keypad button
 
-selector switch and keypad use a pulse train 555
+C.3 = RS485_IN
+C.2 = RS485_OUT
+C.1 = RS485_DIR
+Could I use B.0 and B.1 for hserin, hserout instead?
 
-Out to an LEN panel? i2c?
+C.0 = contactor control
+
+Also need:
+One or more status LEDs -
+waiting to charge
+blinking while charging
+time wait
+
+to edit a param: * then digit
+
+
+Out to an LED panel? i2c?
 Keypad i2c? - have XC4602 https://www.jaycar.com.au/medias/sys_master/images/images/9630070439966/XC4602-dataSheetMain.pdf which is serial and clock but dedicated.
 Realtime clock XC-4450
 
 Some info on keypad (not i2c):https://community.particle.io/t/is-there-a-simple-way-to-use-the-16-key-touchpad-ttp229-with-particle/21357/14
 https://github.com/dmmedia/TTP229B_16keypad
+
+
+
+
+
 
 
