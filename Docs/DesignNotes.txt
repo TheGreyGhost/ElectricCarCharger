@@ -9,6 +9,14 @@ https://picaxe.com/docs/axe110_i2c.pdf
 SCL and SDA 
 HI2CSETUP
 
+1602 display module:
+https://wiki.dfrobot.com/Gravity__I2C_LCD1602_Arduino_LCD_Display_Module_SKU__DFR0555%5CDF0556%5CDFR0557
+https://picaxeforum.co.uk/threads/picaxe-18m2-and-i2c-lcd-16x2-display.23471/
+https://picaxeforum.co.uk/threads/using-arduino-iic-i2c-serial-3-2-lcd-2004-module-display.21872/page-2
+
+
+
+
 Current sensor
 
 Contactor for
