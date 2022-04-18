@@ -165,5 +165,7 @@
 
 ' addr:byte, data:byte
 LCD_setReg:
+  i2c
+	
 
 
